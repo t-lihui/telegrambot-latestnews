@@ -61,7 +61,9 @@ def compiling_message(top5titles, top5time, boolean):
 
 @bot.message_handler(commands=['start'])
 def start(message):
-    bot.send_message(message.chat.id, "Hello! Welcome to TheStraitsTimes_LatestNews bot. Use the command /latest_news to view the 5 most recent articles released by The Straits Times.\n \nIf you want only the latest news article, use /latest_article.")
+    bot.send_message(message.chat.id, "Hello! Welcome to TheStraitsTimes_LatestNews bot.\
+    \n\nUse the command /latest_news to view the 5 most recent articles released by The Straits Times.\
+    \n\nIf you want only the latest news article, use /latest_article.")
 
 @bot.message_handler(commands=['latest_news'])
 def start(message):
